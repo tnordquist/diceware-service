@@ -1,0 +1,12 @@
+server:
+  port: 12321
+
+bundle:
+  name: word-list
+
+spring:
+  thymeleaf:
+    enabled: true
+    cache: true
+    prefix: classpath:/templates/
+    suffix: .html
